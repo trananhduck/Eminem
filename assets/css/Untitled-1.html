@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .static {
+        position: static;
+        background-color: lightblue;
+      }
+
+      .relative {
+        position: relative;
+        top: 10px;
+        left: 20px;
+        background-color: lightgreen;
+      }
+
+      .absolute {
+        position: absolute;
+        top: 50px;
+        left: 30px;
+        background-color: lightcoral;
+      }
+
+      .fixed {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        background-color: lightgoldenrodyellow;
+      }
+
+      .sticky-container {
+        height: 200px;
+        overflow: auto;
+        border: 1px solid black;
+      }
+
+      .sticky {
+        position: sticky;
+        top: 0;
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="static">Static Position</div>
+    <div class="relative">Relative Position</div>
+    <div class="absolute">Absolute Position</div>
+    <div class="fixed">Fixed Position</div>
+    <div class="sticky-container">
+      <div class="sticky">Sticky Position</div>
+      <p>Scroll me...</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna
+        vitae ligula interdum placerat.
+      </p>
+    </div>
+  </body>
+</html>
