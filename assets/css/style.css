@@ -24,6 +24,8 @@ html{
 }
 .mt-16{
     margin-top: 16px !important;
+}.mt-32{
+    margin-top: 32px !important;
 }
 .row{
     margin-left: -8px;
@@ -99,7 +101,7 @@ html{
     background-color: #ccc;
 }
 #nav .subnav {
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 100%;
     left: 0;
@@ -160,10 +162,12 @@ html{
 #slider .text-heading{
     font-weight: 500;
     font-size: 24px;
+    text-shadow: 0 0 2px #000;
 }
 #slider .text-description{
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 2px #000;
 }
 #content{
     
@@ -198,7 +202,7 @@ html{
     line-height: 1.4;
 }
 #content .member-list{
-    margin-top: 48px;
+    margin-top: 32px;
 }
 #content .member-item{
     text-align: center;
@@ -246,7 +250,7 @@ html{
 
 /* Places */
 .places-list{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img{
@@ -282,6 +286,8 @@ html{
     padding: 11px 16px;
     display: inline-block;
     margin-top: 15px;
+    appearance: none;
+    -webkit-appearance: none ;
 }
 .btn:hover{
     columns: #000;
@@ -299,6 +305,13 @@ html{
 .contact-info i[class*= 'ti-']{
     width: 30px;
     display: inline-block;
+}
+.contact-info a{
+    color: #101aef;
+    opacity: 0.6;
+}
+.contact-info a:hover{
+    opacity: 0.8;
 }
 .contact-form{
     font-size: 15px;
