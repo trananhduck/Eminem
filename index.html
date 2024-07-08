@@ -7,7 +7,6 @@
     <link rel="icon" href="./assets/img/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
-
     <link
       rel="stylesheet"
       href="./assets/fonts/themify-icons/themify-icons.css"
@@ -64,7 +63,7 @@
             allegations of abuse.
           </p>
           <div class="row member-list">
-            <div class="col col-third text-center">
+            <div class="col col-third s-col-full mt-32 text-center">
               <p class="member-name">Name</p>
               <img
                 src="./assets/img/member/member1.jpg"
@@ -72,7 +71,7 @@
                 class="member-img"
               />
             </div>
-            <div class="col col-third text-center">
+            <div class="col col-third s-col-full mt-32 text-center">
               <p class="member-name">Name</p>
               <img
                 src="./assets/img/member/member2.jpg"
@@ -80,7 +79,7 @@
                 class="member-img"
               />
             </div>
-            <div class="col col-third text-center">
+            <div class="col col-third s-col-full mt-32 text-center">
               <p class="member-name">Name</p>
               <img
                 src="./assets/img/member/member3.jpg"
@@ -106,7 +105,7 @@
             </ul>
             <!-- Places -->
             <div class="row places-list">
-              <div class="col col-third">
+              <div class="col col-third mt-16 s-col-full">
                 <img
                   src="./assets/img/place/place1.jpg"
                   alt="New York"
@@ -116,13 +115,13 @@
                   <h3 class="place-heading">New York</h3>
                   <p class="place-time">Fri 27 Nov 2016</p>
                   <p class="place-desc"></p>
-                  <button href="#" class="btn js-buy-ticket">
+                  <button href="#" class="btn js-buy-ticket s-full-width">
                     Buy Tickets
                   </button>
                 </div>
               </div>
 
-              <div class="col col-third">
+              <div class="col col-third mt-16 s-col-full">
                 <img
                   src="./assets/img/place/place2.jpg"
                   alt="Paris"
@@ -132,13 +131,13 @@
                   <h3 class="place-heading">Paris</h3>
                   <p class="place-time">Fri 27 Nov 2016</p>
                   <p class="place-desc"></p>
-                  <button href="#" class="btn js-buy-ticket">
+                  <button href="#" class="btn js-buy-ticket s-full-width">
                     Buy Tickets
                   </button>
                 </div>
               </div>
 
-              <div class="col col-third">
+              <div class="col col-third mt-16 s-col-full">
                 <img
                   src="./assets/img/place/place3.jpg"
                   alt="San Francisco"
@@ -148,7 +147,7 @@
                   <h3 class="place-heading">San Francisco</h3>
                   <p class="place-time">Fri 27 Nov 2016</p>
                   <p class="place-desc"></p>
-                  <button href="#" class="btn js-buy-ticket">
+                  <button href="#" class="btn js-buy-ticket s-full-width">
                     Buy Tickets
                   </button>
                 </div>
@@ -162,15 +161,21 @@
           <h2 class="section-heading">CONTACT</h2>
           <p class="section-sub-heading">Fan? Drop a mote!</p>
           <div class="row contact-content">
-            <div class="col col-half contact-info">
+            <div class="col col-half s-col-full contact-info">
               <p><i class="ti-location-pin"></i>Ho Chi Minh, VietNam</p>
-              <p><i class="ti-mobile"></i>Phone: 0123456789</p>
-              <p><i class="ti-email"></i>Email:taduc0508@gmail.com</p>
+              <p>
+                <i class="ti-mobile"></i>Phone:
+                <a href="tel:+0123456789">0123456789</a>
+              </p>
+              <p>
+                <i class="ti-email"></i>Email:
+                <a href="mailto:taduc0508@gmail.com">taduc0508@gmail.com</a>
+              </p>
             </div>
-            <div class="col col-half contact-form">
+            <div class="col col-half s-col-full contact-form">
               <form action="">
                 <div class="row">
-                  <div class="col col-half">
+                  <div class="col col-half s-col-full">
                     <input
                       type="text"
                       name=""
@@ -180,7 +185,7 @@
                       class="form-control"
                     />
                   </div>
-                  <div class="col col-half">
+                  <div class="col col-half s-col-full s-mt-8">
                     <input
                       type="email"
                       name=""
@@ -204,7 +209,7 @@
                   </div>
                 </div>
                 <input
-                  class="btn pull-right mt-16"
+                  class="btn pull-right mt-16 s-full-width"
                   type="submit"
                   value="SEND"
                 />
@@ -310,8 +315,19 @@
       var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
       for (var i = 0; i < menuItems.length; i++) {
         var menuItem = menuItems[i];
-        menuItem.onclick = function () {
-          header.style.height = null;
+        var isParentMenu =
+          menuItem.nextElementSibling &&
+          menuItem.nextElementSibling.classList.contains("subnav");
+
+        menuItem.onclick = function (event) {
+          var isParentMenu =
+            this.nextElementSibling &&
+            menuItem.nextElementSibling.classList.contains("subnav");
+          if (isParentMenu) {
+            event.preventDefault();
+          } else {
+            header.style.height = null;
+          }
         };
       }
     </script>
