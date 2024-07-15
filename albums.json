@@ -1,0 +1,403 @@
+{
+    "albums": [
+      {
+        "name": "Infinite",
+        "image": "./assets/img/album/album1.jpg",
+        "year": "1996",
+        "description": "Eminem's debut album, 'Infinite,' showcases his early work and lyrical abilities.",
+        "tracks": [
+          {
+            "title": "1. Infinite (F.B.T. Remix)",
+            "description": "Title track of the album.",
+            "link": "https://www.youtube.com/watch?v=_Ci6LhAmYJk",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },
+          {
+            "title": "2. W.E.G.O. (Interlude)",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/oKYLoM6lDE4?si=fIlqka0cJyVO8EmS",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },
+          {
+            "title": "3. It's O.K. (ft. Eye-Kyu)",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/neRjzLTWnkc?si=zCcy0fbkrGt_Qg1S",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },{
+            "title": "4. Tonite",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/C5q1xxI6sXs?si=aVdpiaNnfEQXI7HB",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },
+          {
+            "title": "5. 313 (ft. Eye-Kyu)",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/3q3KuFywgKA?si=uOHu9rsLpG_91sVS",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },
+          {
+            "title": "6. Maxine (ft. Denaun Porter and Three)",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/P8SeW-eAEWk?si=vxhfzmsKe_Tcj9JE",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },
+          {
+            "title": "7. Open Mic (ft. Thyme)",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/1gC7M6DRwuE?si=kw2WA66P3YOevHjB",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },
+          {
+            "title": "8. Never 2 Far",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/yvW-Hc1EGoQ?si=65DEoT0WmxPcWfec",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },
+          {
+            "title": "9. Searchin' (ft. Eye-Kyu)",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/KEFndUxRab0?si=F9STGeE4gpfSydqc",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },
+          {
+            "title": "10. Backstabber",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/FKH7vwUO2Fk?si=S7aG_UFkxa-52Lud",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          },{
+            "title": "11. Jealousy Woes II",
+            "description": "Reflective track on personal struggles.",
+            "link": "https://youtu.be/lt1ru1xB-ro?si=ijmmF1uc2kRe34zQ",
+            "banner": "/eminem/assets/img/album/album1.jpg"
+          }
+        ]
+      },
+      {
+        "name": "The Slim Shady LP",
+        "image": "./assets/img/album/album2.jpg",
+        "year": "1999",
+        "description": "The Slim Shady LP marked Eminem's breakthrough, introducing his alter ego and controversial themes.",
+        "tracks": [
+          {
+            "title": "1. Public Service Announcement",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=mSHkNdB8x-A",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "2. My Name Is (Official Music Video)",
+            "description": "Breakout single introducing Slim Shady.",
+            "link": "https://www.youtube.com/watch?v=sNPnbI1arSE",
+            "banner": "/eminem/assets/img/album/album2/MyNameIs.jpg"
+          },
+          {
+            "title": "3. Guilty Conscience (Director's Cut) ft. Dr. Dre",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=Xbw_BxDwdjk",
+            "banner": "/eminem/assets/img/album/album2/Guilty Conscience.jpg"
+          },{
+            "title": "4. Brain Damage",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=ifi6mPWoXxY",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "5. Paul (skit)",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=k_XCqo4yeMo",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "6. If I Had",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=C2Mp48ccAqg",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "7.'97 Bonnie & Clyde",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://youtu.be/fqXYdChOi7k?si=fCSYE4kPN7Z1CVO3",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "8. Bitch (skit)",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://youtu.be/SqsuFV5ozjo?si=lMLEhDRZQ-AI22ZJ",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },{
+            "title": "9. Role Model (Official Music Video)",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://youtu.be/ubEublECnMU?si=eLf3xOseQQlVOT3o",
+            "banner": "/eminem/assets/img/album/album2/Role Model.jpg"
+          },
+          {
+            "title": "10. Lounge (skit)",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://youtu.be/yYeH9IT1Pss?si=tLbRnlAQPA9nNY8V",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "11. My Fault",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://youtu.be/Z-t1ht-1wS8?si=YxwAAxEhMpHgnUgw",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "12. Ken Kaniff (skit)",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://youtu.be/kAXYIaWrU24?si=H9BV_nSVmvk3vC-3",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "13. Cum on Everybody (ft. Dina Rae)",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=DSClcv5cy3Q",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "14. Rock Bottom",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=lcmDvh-bt2c",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "15. Just Don't Give a F*** (Music Video)",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=wIQWRHJq_kE",
+            "banner": "/eminem/assets/img/album/album2/Just Don't Give A Fuck.jpg"
+          },
+          {
+            "title": "16. Soap (skit)",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=tYdyQNOtCAc",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "17. As the World Turns",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=151tviDunmA",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "18. I'm Shady",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://www.youtube.com/watch?v=iDs1sfxwVd4",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "19. Bad Meets Evil (ft. Royce da 5'9\")",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://youtu.be/3a74Azxb7PY?si=0VzjnqYW7qWvMbbU",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          },
+          {
+            "title": "20. Still Don't Give a F***",
+            "description": "Featuring Dr. Dre, exploring moral dilemmas.",
+            "link": "https://youtu.be/7qy30k22sYE?si=B6AKn5MQxy_wGApO",
+            "banner": "/eminem/assets/img/album/album2.jpg"
+          }
+        ]
+      },
+      {
+        "name": "The Marshall Mathers LP",
+        "image": "./assets/img/album/album3.jpg",
+        "year": "2000",
+        "description": "The Marshall Mathers LP solidified Eminem's status as a cultural icon with its raw lyrics and provocative content.",
+        "tracks": [
+          {
+            "title": "Stan",
+            "description": "Critically acclaimed track featuring Dido.",
+            "link": "#",
+            "banner": "./assets/img/track/banner5.jpg"
+          },
+          {
+            "title": "The Real Slim Shady",
+            "description": "Anthem for Eminem's alter ego.",
+            "link": "#",
+            "banner": "./assets/img/track/banner6.jpg"
+          }
+        ]
+      },
+      {
+        "name": "The Eminem Show",
+        "image": "./assets/img/album/album4.jpg",
+        "year": "2002",
+        "description": "The Eminem Show continued Eminem's streak with introspective tracks and critical acclaim.",
+        "tracks": [
+          {
+            "title": "Without Me",
+            "description": "Upbeat single addressing controversies.",
+            "link": "#",
+            "banner": "./assets/img/track/banner7.jpg"
+          },
+          {
+            "title": "Cleanin' Out My Closet",
+            "description": "Emotional track reflecting on personal struggles.",
+            "link": "#",
+            "banner": "./assets/img/track/banner8.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Encore",
+        "image": "./assets/img/album/album5.jpg",
+        "year": "2004",
+        "description": "Encore showcased Eminem's versatility with humor, introspection, and controversy.",
+        "tracks": [
+          {
+            "title": "Mockingbird",
+            "description": "Heartfelt track dedicated to Eminem's daughter.",
+            "link": "#",
+            "banner": "./assets/img/track/banner9.jpg"
+          },
+          {
+            "title": "Like Toy Soldiers",
+            "description": "Reflective track addressing conflicts in the rap industry.",
+            "link": "#",
+            "banner": "./assets/img/track/banner10.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Relapse",
+        "image": "./assets/img/album/album6.jpg",
+        "year": "2009",
+        "description": "Relapse marked Eminem's return to music after a hiatus, exploring darker themes and recovery.",
+        "tracks": [
+          {
+            "title": "Beautiful",
+            "description": "Track addressing struggles and self-acceptance.",
+            "link": "#",
+            "banner": "./assets/img/track/banner11.jpg"
+          },
+          {
+            "title": "Not Afraid",
+            "description": "Anthem of resilience and overcoming adversity.",
+            "link": "#",
+            "banner": "./assets/img/track/banner12.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Recovery",
+        "image": "./assets/img/album/album7.jpg",
+        "year": "2010",
+        "description": "Recovery focused on Eminem's journey through addiction recovery and personal growth.",
+        "tracks": [
+          {
+            "title": "Love the Way You Lie",
+            "description": "Collaboration with Rihanna exploring toxic relationships.",
+            "link": "#",
+            "banner": "./assets/img/track/banner13.jpg"
+          },
+          {
+            "title": "Not Afraid",
+            "description": "Anthem of resilience and overcoming adversity.",
+            "link": "#",
+            "banner": "./assets/img/track/banner12.jpg"
+          }
+        ]
+      },
+      {
+        "name": "The Marshall Mathers LP 2",
+        "image": "./assets/img/album/album8.jpg",
+        "year": "2013",
+        "description": "The Marshall Mathers LP 2 revisited themes from the original with a matured perspective and continued success.",
+        "tracks": [
+          {
+            "title": "Rap God",
+            "description": "Display of Eminem's lyrical prowess and speed.",
+            "link": "#",
+            "banner": "./assets/img/track/banner14.jpg"
+          },
+          {
+            "title": "The Monster",
+            "description": "Collaboration with Rihanna exploring fame and personal demons.",
+            "link": "#",
+            "banner": "./assets/img/track/banner15.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Revival",
+        "image": "./assets/img/album/album9.jpg",
+        "year": "2017",
+        "description": "Revival addressed social issues and Eminem's role in the current cultural and political climate.",
+        "tracks": [
+          {
+            "title": "Walk on Water",
+            "description": "Collaboration with Beyoncé discussing self-doubt and artistic pressures.",
+            "link": "#",
+            "banner": "./assets/img/track/banner16.jpg"
+          },
+          {
+            "title": "River",
+            "description": "Collaboration with Ed Sheeran exploring regrets and relationships.",
+            "link": "#",
+            "banner": "./assets/img/track/banner17.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Kamikaze",
+        "image": "./assets/img/album/album10.jpg",
+        "year": "2018",
+        "description": "Kamikaze marked Eminem's return to a more aggressive style, addressing criticisms and reaffirming his skills.",
+        "tracks": [
+          {
+            "title": "Lucky You",
+            "description": "Collaboration with Joyner Lucas showcasing lyrical abilities.",
+            "link": "#",
+            "banner": "./assets/img/track/banner18.jpg"
+          },
+          {
+            "title": "Venom",
+            "description": "Song from the movie soundtrack addressing adversaries.",
+            "link": "#",
+            "banner": "./assets/img/track/banner19.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Music to Be Murdered By",
+        "image": "./assets/img/album/album11.jpg",
+        "year": "2020",
+        "description": "Music to Be Murdered By continued Eminem's exploration of societal issues and lyrical complexity.",
+        "tracks": [
+          {
+            "title": "Godzilla",
+            "description": "Fast-paced track showcasing Eminem's speed and technical ability.",
+            "link": "#",
+            "banner": "./assets/img/track/banner20.jpg"
+          },
+          {
+            "title": "Darkness",
+            "description": "Reflective track addressing gun violence and its impact.",
+            "link": "#",
+            "banner": "./assets/img/track/banner21.jpg"
+          }
+        ]
+      },
+      {
+        "name": "The Death of Slim Shady",
+        "image": "./assets/img/album/album12.jpg",
+        "year": "2024",
+        "description": "The Death of Slim Shady explores themes of reinvention, legacy, and personal growth.",
+        "tracks": [
+          {
+            "title": "Untitled",
+            "description": "Introductory track setting the tone for the album.",
+            "link": "#",
+            "banner": "./assets/img/track/banner22.jpg"
+          },
+          {
+            "title": "Final Goodbye",
+            "description": "Closing track reflecting on Eminem's journey.",
+            "link": "#",
+            "banner": "./assets/img/track/banner23.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  
