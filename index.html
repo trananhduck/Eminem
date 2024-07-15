@@ -1,101 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
-  <title>Eminem</title>
-</head>
-<body>
-  <div id="main">
-    <div id="header">
-      <ul id="nav">
-        <li><a href="">Home</a></li>
-        <li><a href="">Biography</a></li>
-        <li><a href="">Albums</a></li>
-        <li><a href="">Singles</a></li>
-        <li><a href="">Awards</a></li>
-      </ul>
-      <!-- End nav -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/themify-icons/themify-icons.css"
+    />
+    <title>Eminem</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <ul id="nav">
+          <li><a href="">Home</a></li>
+          <li><a href="">Biography</a></li>
+          <li><a href="">Albums</a></li>
+          <li><a href="">songs</a></li>
+          <li><a href="">Awards</a></li>
+        </ul>
+        <!-- End nav -->
 
-      <!-- Begin: search button -->
-      <div class="search-btn">
-        <i class="search-icon ti-search"></i>
-      </div>
-      <!-- End: search button -->
-    </div>
-
-    <div id="slider">
-      <div class="text-content">
-        <div class="text-heading">EMINEM</div>
-        <p class="text-description">The pride of Hip-hop</p>
-      </div>
-    </div>
-
-    <div id="content">
-      <!-- About section -->
-      <div class="content-section">
-        <h2 class="section-heading">BIOGRAPHY</h2>
-        <p class="section-sub-heading">abcdefgh</p>
-        <p class="about-text">
-          Marshall Bruce Mathers III, professionally known as Eminem, was born
-          on October 17, 1972, in St. Joseph, Missouri. He is an American
-          rapper, songwriter, record producer, and actor, widely considered
-          one of the greatest and most influential artists in hip-hop.
-        </p>
-      </div>
-      
-      <!-- Albums section -->
-      <div class="content-section">
-        <h2 class="section-heading">ALBUMS</h2>
-        <p class="section-sub-heading">abcdefgh</p>
-
-        <div class="albums-list" id="albums-list">
-          <!-- Album buttons will be dynamically added here -->
+        <div class="search-btn">
+          <i class="search-icon ti-search"></i>
         </div>
       </div>
 
-      <!-- Singles section -->
-      <div class="content-section">
-        <h2 class="section-heading">SINGLES</h2>
-        <p class="section-sub-heading">abcdefgh</p>
+      <div id="slider">
+        <div class="text-content">
+          <div class="text-heading">EMINEM</div>
+          <p class="text-description">The pride of Hip-hop</p>
+        </div>
       </div>
 
-      <!-- Awards section -->
-      <div class="content-section">
-        <h2 class="section-heading">AWARDS</h2>
-        <p class="section-sub-heading">abcdefgh</p>
+      <div id="content">
+        <!-- About section -->
+        <div class="content-section">
+          <h2 class="section-heading">BIOGRAPHY</h2>
+          <p class="section-sub-heading">abcdefgh</p>
+          <p class="about-text">
+            Marshall Bruce Mathers III, professionally known as Eminem, was born
+            on October 17, 1972, in St. Joseph, Missouri. He is an American
+            rapper, songwriter, record producer, and actor, widely considered
+            one of the greatest and most influential artists in hip-hop.
+          </p>
+        </div>
+
+        <!-- Albums section -->
+        <div class="content-section">
+          <h2 class="section-heading">ALBUMS</h2>
+          <p class="section-sub-heading">abcdefgh</p>
+
+          <div class="albums-list" id="albums-list">
+            <!-- Album buttons will be dynamically added here -->
+          </div>
+        </div>
+
+        <!-- Songs-section -->
+        <div class="songs-section">
+          <div class="content-section">
+            <h2 class="section-heading text-white">Songs</h2>
+            <p class="section-sub-heading text-white">abcdefgh</p>
+            <div class="songs-list" id="songs-list">
+              <!-- Các song-button sẽ được thêm vào đây -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Awards section -->
+        <div class="content-section">
+          <h2 class="section-heading">AWARDS</h2>
+          <p class="section-sub-heading">abcdefgh</p>
+        </div>
+      </div>
+
+      <div id="footer"></div>
+    </div>
+
+    <div class="modal" id="album-modal">
+      <div class="modal-container">
+        <div class="modal-close">
+          <i class="ti-close"></i>
+        </div>
+
+        <div class="modal-header">
+          <img src="" alt="" class="modal-banner" id="modal-banner" />
+        </div>
+
+        <div class="modal-body">
+          <div class="modal-about">
+            <h2 class="modal-album-title" id="modal-album-title"></h2>
+            <p class="modal-album-description" id="modal-album-description"></p>
+          </div>
+
+          <div class="tracks-list">
+            <h2 class="modal-album-title">TRACKS LIST</h2>
+            <ul id="tracks"></ul>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div id="footer"></div>
-  </div>
-
-  <div class="modal" id="album-modal">
-    <div class="modal-container">
-      <div class="modal-close">
-        <i class="ti-close"></i>
-      </div>
-
-      <div class="modal-header">
-        <img src="" alt="" class="modal-banner" id="modal-banner">
-      </div>
-
-      <div class="modal-body">
-        <div class="modal-about">
-          <h2 class="modal-album-title" id="modal-album-title"></h2>
-          <p class="modal-album-description" id="modal-album-description"></p>
-        </div>
-
-        <div class="tracks-list">
-          <h2 class="modal-album-title">TRACKS LIST</h2>
-          <ul id="tracks"></ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="./script.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
