@@ -79,4 +79,28 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Load albums when DOM is ready
   loadAlbums();
+  const songsList = document.getElementById('songs-list');
+
+  // Function to load songs from JSON and create song buttons
+  function loadSongs() {
+    fetch('./songs.json')
+      .then(response => response.json())
+      .then(data => {
+        data.songs.forEach(song => {
+          const button = document.createElement('button');
+          button.classList.add('song-button');
+          button.innerHTML = `
+            <img src="${song.banner}" alt="${song.title}" class="album-img">
+            <p class="album-name">${song.title}</p>
+          `;
+          button.addEventListener('click', () => {
+            window.open(song.youtubeLink, '_blank');
+          });
+          songsList.appendChild(button);
+        });
+      });
+  }
+
+  // Load songs when DOM is ready
+  loadSongs();
 });
