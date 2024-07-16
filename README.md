@@ -1,6 +1,6 @@
 # Trang web về vị vua rap Eminem
 
-![Eminem](link_to_banner_image)
+![[Eminem](link_to_banner_image)](https://www.google.com/imgres?q=eminem&imgurl=https%3A%2F%2Fstatic.tuoitre.vn%2Ftto%2Fr%2F2017%2F06%2F29%2Feminem-014-1498724304.jpg&imgrefurl=https%3A%2F%2Ftuoitre.vn%2Ffan-tranh-cai-vi-eminemde-rau-1340509.htm&docid=qMsyH7cAk6-_eM&tbnid=blJXNFZ2B9ppyM&vet=12ahUKEwiTrYuL7quHAxX7rVYBHZyGAHMQM3oECGMQAA..i&w=2560&h=1536&hcb=2&ved=2ahUKEwiTrYuL7quHAxX7rVYBHZyGAHMQM3oECGMQAA)
 
 ## Giới thiệu
 Đây là dự án nhằm xây dựng một trang web tổng hợp thông tin về rapper Eminem. Trang web cung cấp các thông tin chi tiết về các album của Eminem, danh sách các bài hát, lời bài hát, và các nội dung liên quan khác.
