@@ -3,7 +3,7 @@
 
 
 ## Giới thiệu
-Đây là dự án nhằm xây dựng một trang web tổng hợp thông tin về rapper Eminem. Trang web cung cấp các thông tin chi tiết về các album của Eminem, danh sách các bài hát, lời bài hát, và các nội dung liên quan khác.
+Đây là dự án nhằm xây dựng một trang web tổng hợp thông tin về rapper Eminem. Trang web cung cấp các thông tin chi tiết về các album của Eminem, danh sách các bài hát, giải thưởng, và các nội dung liên quan khác.
 
 ## Cài đặt
 Không cần cài đặt phức tạp. Bạn có thể truy cập trực tiếp từ trình duyệt web.
