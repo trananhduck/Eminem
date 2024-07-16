@@ -90,8 +90,8 @@ document.addEventListener('DOMContentLoaded', function () {
           const button = document.createElement('button');
           button.classList.add('song-button');
           button.innerHTML = `
-            <img src="${song.banner}" alt="${song.title}" class="album-img">
-            <p class="album-name">${song.title}</p>
+            <img src="${song.banner}" alt="${song.title}" class="song-img">
+            <p class="song-name">${song.title}</p>
           `;
           button.addEventListener('click', () => {
             window.open(song.youtubeLink, '_blank');
@@ -103,4 +103,35 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Load songs when DOM is ready
   loadSongs();
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+  // đóng mở mobile menu
+  var header = document.getElementById('header');
+  var mobileMenu = document.getElementById('mobile-menu')
+  var headerHeight = header.clientHeight;
+  mobileMenu.onclick = function () {
+    var isClosed = header.clientHeight === headerHeight;
+    if (isClosed) {
+      header.style.height = 'auto';
+    } else {
+      header.style.height = null;
+    }
+  }
+
+  // tự động đóng khi chọn menu
+  var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+  for (var i = 0; i < menuItems.length; i++) {
+    var menuItem = menuItems[i];
+    menuItem.onclick = function () {
+      header.style.height = null;
+    }
+  }
+  
 });
