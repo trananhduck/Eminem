@@ -6,7 +6,8 @@
 Đây là dự án nhằm xây dựng một trang web tổng hợp thông tin về rapper Eminem. Trang web cung cấp các thông tin chi tiết về các album của Eminem, danh sách các bài hát, giải thưởng, và các nội dung liên quan khác.
 
 ## Cài đặt
-Không cần cài đặt phức tạp. Bạn có thể truy cập trực tiếp từ trình duyệt web.
+- Không cần cài đặt phức tạp. Bạn có thể truy cập trực tiếp từ trình duyệt web.
+- Bạn cần tải themify-icons tại đây: https://themify.me/themify-icons
 
 ## Các tính năng chính
 - **Albums**: Danh sách các album của Eminem với thông tin chi tiết về từng album.
