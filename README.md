@@ -1,6 +1,6 @@
 # Trang web về vị vua rap Eminem
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/6593e4a1-dcce-48f7-9f57-020a7db398e9)
 
 
 ## Giới thiệu
