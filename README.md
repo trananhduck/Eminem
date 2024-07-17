@@ -8,7 +8,7 @@
 
 ## Cài đặt
 - Không cần cài đặt phức tạp. Bạn có thể truy cập trực tiếp từ trình duyệt web.
-- Bạn cần tải themify-icons tại đây: https://themify.me/themify-icons
+
 
 ## Các tính năng chính
 - **Albums**: Danh sách các album của Eminem với thông tin chi tiết về từng album.
