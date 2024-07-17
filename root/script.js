@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const header = document.getElementById('header');
   const mobileMenu = document.getElementById('mobile-menu');
   const nav = document.getElementById('nav');
+  const modalCloseBtn = document.querySelector('.modal-close');
 
   // Function to load albums from JSON and create buttons
   function loadAlbums() {
@@ -91,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
   loadSongs();
 
   // Event delegation for album buttons
-  albumsList.addEventListener('click', function (event) {
+  albumsList.addEventListener('click', function(event) {
     const button = event.target.closest('.album-button');
     if (button) {
       const albumIndex = button.dataset.albumIndex;
@@ -105,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Event delegation for song buttons
-  songsList.addEventListener('click', function (event) {
+  songsList.addEventListener('click', function(event) {
     const button = event.target.closest('.song-button');
     if (button) {
       const youtubeLink = button.dataset.songLink;
@@ -114,14 +115,13 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Close modal when clicking outside the modal content
-  window.addEventListener('click', function (event) {
+  window.addEventListener('click', function(event) {
     if (event.target === modal) {
       closeModal();
     }
   });
 
   // Close modal when clicking the close button
-  const modalCloseBtn = document.querySelector('.modal-close');
   if (modalCloseBtn) {
     modalCloseBtn.addEventListener('click', closeModal);
   }
