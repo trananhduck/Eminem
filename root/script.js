@@ -5,13 +5,17 @@ document.addEventListener('DOMContentLoaded', function () {
   const modalDescription = document.getElementById('modal-album-description');
   const modalBanner = document.getElementById('modal-banner');
   const tracksList = document.getElementById('tracks');
+  const songsList = document.getElementById('songs-list');
+  const header = document.getElementById('header');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const nav = document.getElementById('nav');
 
   // Function to load albums from JSON and create buttons
   function loadAlbums() {
     fetch('./albums.json')
       .then(response => response.json())
       .then(data => {
-        data.albums.forEach((album, index) => {
+        data.albums.forEach((album) => {
           const button = document.createElement('button');
           button.classList.add('album-button');
           button.innerHTML = `
@@ -19,9 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <img src="${album.image}" alt="${album.name}" class="album-img">
             <p class="album-year">${album.year}</p>
           `;
-          button.addEventListener('click', () => {
-            showModal(album);
-          });
+          button.dataset.albumIndex = data.albums.indexOf(album); // Thêm dữ liệu index để dễ dàng truy cập
           albumsList.appendChild(button);
         });
       });
@@ -59,27 +61,13 @@ document.addEventListener('DOMContentLoaded', function () {
     modal.style.left = `${Math.max((window.innerWidth - modal.offsetWidth) / 2, 0)}px`;
   }
 
-  // Close modal when clicking outside the modal content
-  window.onclick = function (event) {
-    if (event.target === modal) {
-      closeModal();
-    }
-  };
-
   // Function to close modal
   function closeModal() {
     modal.style.display = 'none';
   }
 
-  // Close modal when clicking the close button
-  const modalCloseBtn = document.querySelector('.modal-close');
-  if (modalCloseBtn) {
-    modalCloseBtn.addEventListener('click', closeModal);
-  }
-
   // Load albums when DOM is ready
   loadAlbums();
-  const songsList = document.getElementById('songs-list');
 
   // Function to load songs from JSON and create song buttons
   function loadSongs() {
@@ -93,9 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <img src="${song.banner}" alt="${song.title}" class="song-img">
             <p class="song-name">${song.title}</p>
           `;
-          button.addEventListener('click', () => {
-            window.open(song.youtubeLink, '_blank');
-          });
+          button.dataset.songLink = song.youtubeLink; // Thêm dữ liệu link bài hát
           songsList.appendChild(button);
         });
       });
@@ -103,35 +89,63 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Load songs when DOM is ready
   loadSongs();
+
+  // Event delegation for album buttons
+  albumsList.addEventListener('click', function (event) {
+    const button = event.target.closest('.album-button');
+    if (button) {
+      const albumIndex = button.dataset.albumIndex;
+      fetch('./albums.json')
+        .then(response => response.json())
+        .then(data => {
+          const album = data.albums[albumIndex];
+          showModal(album);
+        });
+    }
+  });
+
+  // Event delegation for song buttons
+  songsList.addEventListener('click', function (event) {
+    const button = event.target.closest('.song-button');
+    if (button) {
+      const youtubeLink = button.dataset.songLink;
+      window.open(youtubeLink, '_blank');
+    }
+  });
+
+  // Close modal when clicking outside the modal content
+  window.addEventListener('click', function (event) {
+    if (event.target === modal) {
+      closeModal();
+    }
+  });
+
+  // Close modal when clicking the close button
+  const modalCloseBtn = document.querySelector('.modal-close');
+  if (modalCloseBtn) {
+    modalCloseBtn.addEventListener('click', closeModal);
+  }
+
+  // Smooth scroll for menu links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
-
       document.querySelector(this.getAttribute('href')).scrollIntoView({
         behavior: 'smooth'
       });
     });
   });
-  // đóng mở mobile menu
-  var header = document.getElementById('header');
-  var mobileMenu = document.getElementById('mobile-menu')
-  var headerHeight = header.clientHeight;
-  mobileMenu.onclick = function () {
-    var isClosed = header.clientHeight === headerHeight;
-    if (isClosed) {
-      header.style.height = 'auto';
-    } else {
-      header.style.height = null;
-    }
-  }
 
-  // tự động đóng khi chọn menu
-  var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
-  for (var i = 0; i < menuItems.length; i++) {
-    var menuItem = menuItems[i];
-    menuItem.onclick = function () {
+  // Toggle mobile menu
+  mobileMenu.addEventListener('click', function () {
+    const isClosed = header.clientHeight === headerHeight;
+    header.style.height = isClosed ? 'auto' : null;
+  });
+
+  // Auto-close menu when clicking a menu item
+  nav.addEventListener('click', function (event) {
+    if (event.target.matches('#nav li a[href*="#"]')) {
       header.style.height = null;
     }
-  }
-  
+  });
 });
