@@ -1,0 +1,128 @@
+{
+    "songs": [
+      {
+        "title": "1. Lose Yourself",
+        "banner": "./assets/img/songs/Lose Yourself.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=xFYQQPAOz7Y"
+      },
+      {
+        "title": "2. Love the Way You Lie (feat. Rihanna)",
+        "banner": "./assets/img/songs/Love the Way You Lie.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=uelHwf8o7_U"
+      },{
+        "title": "3. Smack That - Akon feat. Eminem",
+        "banner": "./assets/img/songs/Smack That.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=bKDdT_nyP54"
+      },{
+        "title": "4. The Monster (feat. Rihanna)",
+        "banner": "./assets/img/songs/The Monster.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?app=desktop&v=EHkozMIXZ8w"
+      },{
+        "title": "5. Without Me",
+        "banner": "./assets/img/songs/Without Me.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=YVkUvmDQ3HY"
+      },{
+        "title": "6. Not Afraid",
+        "banner": "./assets/img/songs/Not Afraid.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=j5-yKhDd64s"
+      },{
+        "title": "7. Cleanin' Out My Closet",
+        "banner": "./assets/img/songs/Cleanin' Out My Closet.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?app=desktop&v=RQ9_TKayu9s9"
+      },{
+        "title": "8. The Real Slim Shady",
+        "banner": "./assets/img/songs/The Real Slim Shady.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=eJO5HU_7_1w"
+      },{
+        "title": "9. Just Lose It",
+        "banner": "./assets/img/songs/Just Lose It.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=9dcVOmEQzKA"
+      },{
+        "title": "10. Forever - Drake feat. Eminem, Kanye West & Lil Wayne",
+        "banner": "./assets/img/songs/Forever.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=eDuRoPIOBjE"
+      },{
+        "title": "11. Crack a Bottle (with Dr. Dre & 50 Cent)",
+        "banner": "./assets/img/songs/Crack a Bottle.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=_wN3wl473M0"
+      },{
+        "title": "12. I Need a Doctor - Dr. Dre feat. Eminem & Skylar Grey",
+        "banner": "./assets/img/songs/I Need a Doctor.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=VA770wpLX-Q"
+      },{
+        "title": "13. Shake That (feat. Nate Dogg)",
+        "banner": "./assets/img/songs/Shake That.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?app=desktop&v=WrjwGPb0Hvw"
+      },{
+        "title": "14. Berzerk",
+        "banner": "./assets/img/songs/Berzerk.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=ab9176Srb5Y"
+      },{
+        "title": "15. Mockingbird",
+        "banner": "./assets/img/songs/Mockingbird.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=S9bCLPwzSC0"
+      },{
+        "title": "16. When I'm Gone",
+        "banner": "./assets/img/songs/When I'm Gone.jpg",
+        "youtubeLink": "https://youtu.be/1wYNFfgrXTI?si=dKY44l7YaHxaJyqK"
+      },{
+        "title": "17. Rap God",
+        "banner": "./assets/img/songs/Rap God.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=XbGs_qK2PQA"
+      },{
+        "title": "18. Sing for the Moment",
+        "banner": "./assets/img/songs/Sing for the Moment.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?app=desktop&v=D4hAVemuQXY"
+      },{
+        "title": "19. Superman (feat. Dina Rae",
+        "banner": "./assets/img/songs/Superman.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=8kYkciD9VjU"
+      },{
+        "title": "20. Forgot About Dre - Dr. Dre feat. Eminem",
+        "banner": "./assets/img/songs/Forgot About Dre.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?app=desktop&v=QFcv5Ma8u8k"
+      },{
+        "title": "21. Godzilla",
+        "banner": "./assets/img/songs/Godzilla.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=r_0JjYUe5jo"
+      },{
+        "title": "22. We Made You",
+        "banner": "./assets/img/songs/We Made You.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=RSdKmX2BH7o"
+      },{
+        "title": "23. Killshot",
+        "banner": "./assets/img/songs/Killshot.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?app=desktop&v=FxQTY-W6GIo"
+      },{
+        "title": "24. No Love (feat. Lil Wayne)",
+        "banner": "./assets/img/songs/No Love.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=KV2ssT8lzj8"
+      },{
+        "title": "25. Lucky You (feat. Joyner Lucas)",
+        "banner": "./assets/img/songs/Lucky You.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=mvSItvjFE1c"
+      },{
+        "title": "26. Encore (with Dr. Dre & 50 Cent)",
+        "banner": "./assets/img/songs/Encore.jpg",
+        "youtubeLink": "https://youtu.be/YTn-QitN5xM?si=DjqTHZF1a4n1sK0y"
+      },{
+        "title": "27. River (feat. Ed Sheeran)",
+        "banner": "./assets/img/songs/River.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?app=desktop&v=wfWIs2gFTAM"
+      },{
+        "title": "28. Drop the World - Lil Wayne feat. Eminem",
+        "banner": "./assets/img/songs/Drop the World.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=ErCAOMi5EGM"
+      },{
+        "title": "29. Survival",
+        "banner": "./assets/img/songs/Survival.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=NlmezywdxPI"
+      },{
+        "title": "30. Homicide - Logic feat. Eminem",
+        "banner": "./assets/img/songs/Homicide.jpg",
+        "youtubeLink": "https://www.youtube.com/watch?v=mfqsEpjEtrw"
+      }
+    ]
+  }
+
+           
