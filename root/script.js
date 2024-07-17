@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const mobileMenu = document.getElementById('mobile-menu');
   const nav = document.getElementById('nav');
   const modalCloseBtn = document.querySelector('.modal-close');
+  const headerHeight = header.clientHeight;
 
   // Function to load albums from JSON and create buttons
   function loadAlbums() {
