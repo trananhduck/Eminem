@@ -1,7 +1,7 @@
 
 # Trang web về vua rap Eminem
 
-
+Link: https://trananhduck.github.io/Eminem/root/index.html
 
 ## Giới thiệu
 Đây là dự án nhằm xây dựng một trang web tổng hợp thông tin về rapper Eminem. Trang web cung cấp các thông tin chi tiết về các album của Eminem, danh sách các bài hát, giải thưởng, và các nội dung liên quan khác.
